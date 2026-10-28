@@ -1,29 +1,3 @@
-## Estrutura do projeto
-
-```text
-Projeto_Cripto_revisado/
-├── DAO/
-│   ├── ClienteDAO.java             # Cadastro e consultas legadas de cliente
-│   ├── Conexao.java                # Configuração JDBC por variáveis de ambiente
-│   └── OperacaoDAO.java            # Compra, venda, saldo, cotação e extrato
-├── controller/                     # Validação e fluxo das telas
-├── model/
-│   ├── Cliente.java
-│   ├── Cotacoes.java
-│   ├── ResultadoOperacao.java
-│   ├── Transacao.java
-│   ├── Moedas.java
-│   ├── Bitcoin.java
-│   ├── Ethereum.java
-│   └── Ripple.java
-├── view/                           # Interfaces Swing
-├── projetocripto/ProjetoCripto.java # Ponto de entrada
-├── database/schema.sql              # Esquema e migração mínima do PostgreSQL
-├── pom.xml
-├── .gitignore
-├── README.md
-└── REVISAO_TECNICA.md
-
 # Projeto Cripto
 
 Este projeto foi desenvolvido como trabalho acadêmico e tem como objetivo simular uma plataforma simples para trabalhar com saldo em reais e criptomoedas. A aplicação possui uma interface gráfica feita em Java e utiliza um banco de dados PostgreSQL para armazenar as informações dos usuários e das movimentações.
