@@ -1,8 +1,8 @@
 # Projeto Cripto
 
-Aplicação desktop acadêmica em Java Swing para simular uma carteira de reais e criptomoedas, com persistência no PostgreSQL via JDBC. O projeto foi ampliado para incluir compra e venda de criptomoedas, atualização manual de cotações e histórico de transações.
+Este projeto foi desenvolvido como trabalho acadêmico e tem como objetivo simular uma plataforma simples para trabalhar com saldo em reais e criptomoedas. A aplicação possui uma interface gráfica feita em Java e utiliza um banco de dados PostgreSQL para armazenar as informações dos usuários e das movimentações.
 
-> **Aviso:** este é um simulador educacional. Não integra bancos, corretoras nem uma API de preços em tempo real. As cotações iniciais são valores de exemplo. Não utilize para movimentar dinheiro real nem armazene dados pessoais reais.
+O sistema trabalha com Bitcoin (BTC), Ethereum (ETH) e Ripple (XRP). Ele é apenas um simulador: não movimenta dinheiro real, não se conecta a corretoras e não busca cotações automaticamente na internet.
 
 ## Funcionalidades
 
